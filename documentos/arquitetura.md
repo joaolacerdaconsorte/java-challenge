@@ -87,7 +87,7 @@ Listagens de tutores/pets/consultas tendem a se repetir muito (Swagger UI, dashb
 
 ### Por que JPQL ao invés de Criteria/Specifications?
 - Para os filtros compostos (consultas por status + clínica + datas), JPQL com parâmetros nullable (`:x IS NULL OR campo = :x`) é mais legível que Criteria/Specifications.
-- Critérios mais complexos (full-text) ficariam em sprints futuras.
+- Para esta entrega, os filtros por parametros ja cobrem as buscas usadas nos endpoints.
 
 ### Por que CommandLineRunner ao invés de data.sql?
 - BCrypt do admin precisa ser gerado em runtime (`PasswordEncoder.encode("admin123")`)

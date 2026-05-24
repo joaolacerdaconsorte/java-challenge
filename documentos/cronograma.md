@@ -50,6 +50,6 @@ Uma atividade só é marcada como concluída quando:
 
 | Risco | Mitigação |
 |---|---|
-| Migração de H2 para Oracle FIAP em sprints futuras | Schema já modelado para ser compatível; nomes em VARCHAR2-friendly |
+| Uso de Oracle no lugar do H2 | Schema já modelado com nomes simples e compatíveis |
 | Token JWT expirar durante a apresentação | Expiração configurada em 24h |
 | Dados perdidos no H2 in-memory | Seed automático via `DataInitializer` a cada start |
