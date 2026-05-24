@@ -2,7 +2,7 @@
 
 > **Challenge FIAP — Java Advanced 2026 (1º Sprint)**
 > Empresa parceira: **CLYVO VET** | Branding: **Pet360**
-> Aluno: João Vitor Lacerda — RM 565565 — Turma 2TDSPW
+> Equipe: João Vitor Lacerda RM 565565, Kauan Vieira de lima RM 565403 e Murillo Fernandes Carapia RM 564969 — Turma 2TDSPW
 
 API REST em **Spring Boot 3.3.5** e **Java 21** que resolve o problema da CLYVO VET: ser o "sistema operacional do relacionamento contínuo entre clínica, responsável e pet". Persiste histórico longitudinal estruturado de tutores, pets, consultas, vacinas, medicamentos, agendamentos e alertas — indo muito além de CRUD puro.
 

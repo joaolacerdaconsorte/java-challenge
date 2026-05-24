@@ -2,7 +2,7 @@
   "info": {
     "_postman_id": "pet360-fiap-2026-collection",
     "name": "Pet360 — Challenge FIAP Java Advanced 2026",
-    "description": "Coleção completa para testes da API REST do Pet360 (CLYVO VET).\n\n**Como usar:**\n1. Suba a aplicação com `./gradlew bootRun`\n2. Execute a request `Auth → Login (admin)` — o token será salvo automaticamente em `{{token}}`\n3. Todas as outras requests usam Bearer Auth com esse token\n\n**Variáveis:**\n- `baseUrl` = http://localhost:8080\n- `token` = preenchido após login\n- `tutorId`, `clinicaId`, `petId`, `consultaId`, `vacinaId`, `medicamentoId`, `agendamentoId`, `alertaId` = capturados automaticamente após criação\n\n**Aluno:** João Vitor Lacerda — RM 565565 — 2TDSPW",
+    "description": "Coleção completa para testes da API REST do Pet360 (CLYVO VET).\n\n**Como usar:**\n1. Suba a aplicação com `./gradlew bootRun`\n2. Execute a request `Auth → Login (admin)` — o token será salvo automaticamente em `{{token}}`\n3. Todas as outras requests usam Bearer Auth com esse token\n\n**Variáveis:**\n- `baseUrl` = http://localhost:8080\n- `token` = preenchido após login\n- `tutorId`, `clinicaId`, `petId`, `consultaId`, `vacinaId`, `medicamentoId`, `agendamentoId`, `alertaId` = capturados automaticamente após criação\n\n**Equipe:** João Vitor Lacerda RM 565565, Kauan Vieira de lima RM 565403 e Murillo Fernandes Carapia RM 564969 — 2TDSPW",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "auth": {
